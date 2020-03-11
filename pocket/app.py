@@ -38,6 +38,7 @@ def create_app():
 
 
 def create_context_debug():
+    #  https://flask-sqlalchemy.palletsprojects.com/en/2.x/contexts/
     app = create_app()
     app.app_context().push()
 
